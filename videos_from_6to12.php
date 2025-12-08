@@ -24,3 +24,15 @@ echo "<hr>";
 ?>
 <!-- Task 2 end -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!-- Task 3 start -->
+<?php
+    echo "Hello \"Elzero\"  \\\\ \"\"\" We Love \"$\$PHP\"";
+
+// Needed Output
+// Hello "Elzero" \\ """ We Love "$$PHP"
+
+ // Not from the task that only for the horizontal line between every task
+echo "<hr>";
+?>
+<!-- Task 3 end -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
