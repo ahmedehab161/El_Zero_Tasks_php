@@ -73,3 +73,20 @@ echo "<hr>";
 ?>
 <!-- Task 5 End -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!-- Task 6 Start -->
+<?php
+$something = "Programming";
+
+echo <<<"Here"
+Hello \PHP\
+We Love $something
+Here;
+
+// [1] Fix The Error
+// [2] Remove 2 Characters To Get The Output
+
+// Needed Output
+// Hello \PHP\ We Love Programming
+?>
+<!-- Task 6 End -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
