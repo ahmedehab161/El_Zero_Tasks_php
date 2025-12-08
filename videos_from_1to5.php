@@ -10,6 +10,7 @@
   <body>
     <div><?php echo "We Love"; ?></div>
     <div><?php echo "Elzero Channel"; ?></div>
+    <!-- Not from the task that only for the horizontal line between every task -->
     <hr>
   </body>
 </html>
@@ -21,12 +22,19 @@
     /* echo 'Prevent Me From Running Please'; */
     # echo 'Prevent Me From Running Please';
 
-// not from the task that only for the horizontal line between every task
+// Not from the task that only for the horizontal line between every task
 echo "<hr>";
  ?>
 <!-- Task 2 End-->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <!-- Task 3 start-->
+<?php 
+/* 
+My Application
+Version 1.0
+Created By Elzero 
+*/
+?>
 <!-- Task 3 End-->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
