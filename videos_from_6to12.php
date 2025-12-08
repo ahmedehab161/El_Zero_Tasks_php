@@ -54,3 +54,22 @@ echo "<hr>";
 ?>
 <!-- Task 4 end -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!-- Task 5 Start -->
+<?php
+echo <<< 'Now'
+    Hello "'Elzero'"
+    We Love $Programming$
+    Languages Specially "PHP"
+Now;
+// Needed Output
+/*
+    Hello "'Elzero'"
+    We Love $Programming$
+    Languages Specially "PHP"
+*/
+
+// Not from the task that only for the horizontal line between every task
+echo "<hr>";
+?>
+<!-- Task 5 End -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
