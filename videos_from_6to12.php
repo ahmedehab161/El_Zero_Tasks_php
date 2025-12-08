@@ -36,3 +36,21 @@ echo "<hr>";
 ?>
 <!-- Task 3 end -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!-- Task 4 start -->
+<?php
+    echo nl2br("We\nLove\nElzero\nWeb\nSchool");
+
+// Needed Output
+/*
+We
+Love
+Elzero
+Web
+School
+*/
+
+// Not from the task that only for the horizontal line between every task
+echo "<hr>";
+?>
+<!-- Task 4 end -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
