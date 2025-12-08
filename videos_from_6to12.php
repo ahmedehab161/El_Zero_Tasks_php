@@ -87,6 +87,33 @@ Here;
 
 // Needed Output
 // Hello \PHP\ We Love Programming
+
+
+// Not from the task that only for the horizontal line between every task
+echo "<hr>";
 ?>
 <!-- Task 6 End -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!-- Task 7 Start -->
+<?php
+    echo is_string("Hello PHP");
+    echo '<br>';
+    echo gettype((int)"Hello PHP");
+
+// Needed Output
+/*
+1
+integer
+*/
+
+// Not from the task that only for the horizontal line between every task
+echo "<hr>";
+?>
+<!-- Task 7 End -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!-- Task 8 Start -->
+<?php
+
+?>
+<!-- Task 8 End -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
