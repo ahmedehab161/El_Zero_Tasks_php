@@ -113,7 +113,78 @@ echo "<hr>";
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <!-- Task 8 Start -->
 <?php
+echo "<pre>";
+print_r([
+    "FrontEnd" => [
+        0 => "HTML",
+        1 => "CSS",
+        "JS" => [
+            "Vuejs" => [
+                2 => "v2",
+                3 => "v3",
+            ],
+            0 => "Reactjs",
+            1 => "Svelte",
+        ],
+    ],
 
+    "BackEnd" => [
+        0 => "PHP",
+        1 => "MYSQL",
+        3 => "Security",
+    ],
+
+    0 => "Git",
+    1 => "Github",
+    "Testing" => [
+        0 => "Unit Testing",
+        1 => "End To End",
+        2 => "Integration",
+    ],
+]);
+echo "</pre>";
+
+// This Is The Needed Output
+/*
+Array
+(
+  [FrontEnd] => Array
+    (
+      [0] => HTML
+      [1] => CSS
+      [JS] => Array
+        (
+          [Vuejs] => Array
+            (
+              [2] => v2
+              [3] => v3
+            )
+
+          [0] => Reactjs
+          [1] => Svelte
+        )
+    )
+
+  [BackEnd] => Array
+    (
+      [0] => PHP
+      [1] => MySQL
+      [2] => Security
+    )
+
+  [0] => Git
+  [1] => Github
+  [Testing] => Array
+    (
+      [0] => Unit Testing
+      [1] => End To End
+      [2] => Integration
+    )
+)
+*/
+
+    // Not from the task that only for the horizontal line between every task
+echo "<hr>";
 ?>
 <!-- Task 8 End -->
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
