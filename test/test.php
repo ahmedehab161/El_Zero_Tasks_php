@@ -1,5 +1,8 @@
-<?php $username = "Ahmed"?>
-<!DOCTYPE html>
+<?php
+$a = 1; 
+echo $a += 20;
+?>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,4 +14,4 @@
     <div><?php echo $username; ?> You Scored 1000 Points</div>
 <?php include("score.php") ?>
 </body>
-</html>
+</html> -->
